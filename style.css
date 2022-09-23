@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Mada:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Cairo', sans-serif;
+
+
+}
+
+.container {
+    background-color: rgb(193, 111, 111);
+    width: 900px;
+    height: 500px;
+    display: flex;
+}
+
+.box-one  , .box-two , .box-three {
+    position: relative;
+}
+
+.box-one {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box-two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box-three {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.description{
+    margin: 40px;
+    height: 400px;
+}
+
+.description p {
+    bottom: -30px;
+    position: relative;
+    font-size: 17px;
+    color: white;
+    filter: opacity(0.5);
+    height: 158px;
+    line-height: 1.7;
+}
+
+
+button  {
+    position: relative;
+    display: flex;
+    top: 137px;
+    background-color: white;
+    border-radius: 20px;
+    height: 46px;
+    width: 139px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button .text-one {
+    color: #e38826;
+}
+
+h1 {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
